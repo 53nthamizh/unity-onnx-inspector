@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/unity-onnx-inspector/static/css/main.a08e3e8a.css",
-    "main.js": "/unity-onnx-inspector/static/js/main.9d8f970d.js",
+    "main.js": "/unity-onnx-inspector/static/js/main.13b3669d.js",
     "index.html": "/unity-onnx-inspector/index.html",
     "main.a08e3e8a.css.map": "/unity-onnx-inspector/static/css/main.a08e3e8a.css.map",
-    "main.9d8f970d.js.map": "/unity-onnx-inspector/static/js/main.9d8f970d.js.map"
+    "main.13b3669d.js.map": "/unity-onnx-inspector/static/js/main.13b3669d.js.map"
   },
   "entrypoints": [
     "static/css/main.a08e3e8a.css",
-    "static/js/main.9d8f970d.js"
+    "static/js/main.13b3669d.js"
   ]
 }
