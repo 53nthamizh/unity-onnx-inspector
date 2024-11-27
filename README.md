@@ -1,46 +1,83 @@
-# Getting Started with Create React App
+# ONNX Model Inspector for Unity
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the ONNX Model Inspector – a simple web application designed to analyze and inspect ONNX models with ease. This tool allows you to inspect and evaluate the operator compatibility with backend systems like CPU and GPU.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- **Version Selection**: Choose from different versions of operator data stored in an `assets/xlsx/` directory. The versions are dynamically fetched, making it easy to compare different model versions.
+- **Operator Compatibility Analysis**: Inspect the operators in an ONNX model and view their compatibility with various backends like CPU, GPUCompute, and GPUPixel. Operators are categorized as supported, Sentis-only, unsupported, or unknown.
+- **Dynamic Operator Data**: Upload your ONNX models and get real-time compatibility analysis based on the selected version of operator data.
+- **Interactive Output**: Get a clear and concise report of the operator compatibility, with detailed backend support for each operator.
 
-### `npm start`
+## ⚙️ Technical Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **React.js**: 
+- **XLSX.js**: 
+- **protobufjs**: 
+- **TailwindCSS**:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 📦 Installation
 
-### `npm test`
+Clone the repository and install dependencies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+git clone https://github.com/53nthamizh/onnx-model-inspector.git
+cd unity-onnx-inspector
+npm install
+```
 
-### `npm run build`
+## Running Locally
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run the app locally for development:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This will start the development server and open the app in your default browser.
 
-### `npm run eject`
+## 🖼️ Screenshots
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Here’s how it looks in action:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Select Version**: Choose the version of the operator data to be used for compatibility checks.
+2. **Load Operator Data**: Load operator data for a specific version and check the backend support.
+3. **Load ONNX Model**: Upload or drag-and-drop an ONNX model file to analyze its operator compatibility.
+4. **View Operator Compatibility**: View detailed backend support (CPU, GPUCompute, GPUPixel) for each operator, categorized into supported, Sentis-only, unsupported, and unknown.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 💡 Usage
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Choose a version of operator data from the dropdown.
+2. Load operator data from the selected version.
+3. Upload your ONNX model (either by choosing a file or drag-and-drop).
+4. View detailed analysis of the operators and backend support.
 
-## Learn More
+## 🤖 How It Works
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Version Selection**: The versions are fetched from the `/assets/xlsx/` directory.
+- **Operator Data Loading**: The operator data is loaded from an Excel sheet containing detailed information about the supported operators, Sentis-only operators, and unsupported operators.
+- **ONNX Model Analysis**: Once the model is uploaded, the ONNX file is parsed, and its operators are compared against the operator data to generate a detailed compatibility report.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🌐 Live Demo
+
+You can try a live demo of the ONNX Model Inspector on our website: [Live Demo Link]
+
+## 💬 Contributing
+
+If you have ideas, suggestions, or find any bugs, feel free to submit an issue or pull request. All contributions are appreciated!
+
+### Steps to Contribute:
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -m 'Add new feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Create a new Pull Request
+
+## 📄 License
+
+![CC0 1.0 Universal (CC0 1.0) Public Domain Dedication](https://licensebuttons.net/p/zero/1.0/88x31.png)
+
+This project is licensed under the CC0 1.0 Universal (CC0 1.0) Public Domain Dedication.
+
+You are free to use, modify, and distribute the project without any restrictions.
