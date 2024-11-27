@@ -11,17 +11,17 @@ Welcome to the ONNX Model Inspector – a simple web application designed to ana
 
 ## ⚙️ Technical Stack
 
-- **React.js**: 
-- **XLSX.js**: 
-- **protobufjs**: 
-- **TailwindCSS**:
+- **React.js**
+- **XLSX.js**
+- **protobufjs** 
+- **TailwindCSS**
 
 ## 📦 Installation
 
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/53nthamizh/onnx-model-inspector.git
+git clone https://github.com/53nthamizh/unity-onnx-inspector.git
 cd unity-onnx-inspector
 npm install
 ```
@@ -39,6 +39,8 @@ This will start the development server and open the app in your default browser.
 ## 🖼️ Screenshots
 
 Here’s how it looks in action:
+
+[TODO: Add screenshots]
 
 1. **Select Version**: Choose the version of the operator data to be used for compatibility checks.
 2. **Load Operator Data**: Load operator data for a specific version and check the backend support.
@@ -60,7 +62,7 @@ Here’s how it looks in action:
 
 ## 🌐 Live Demo
 
-You can try a live demo of the ONNX Model Inspector on our website: [Live Demo Link]
+You can try a live demo of the ONNX Model Inspector on our website: [TODO: Add Live Demo Link]
 
 ## 💬 Contributing
 
