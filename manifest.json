@@ -1,0 +1,28 @@
+{
+  "short_name": "ONNX Inspector for Unity",
+  "name": "ONNX Model Inspector for Unity",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icons/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#1a202c",
+  "background_color": "#2d3748",
+  "description": "A tool for analyzing and inspecting ONNX models and their operator compatibility in unity.",
+  "orientation": "portrait-primary",
+  "categories": ["tools", "machine learning", "AI", "model inspection"]
+}

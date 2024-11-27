@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/unity-onnx-inspector/static/css/main.a08e3e8a.css",
+    "main.js": "/unity-onnx-inspector/static/js/main.64c50c59.js",
+    "index.html": "/unity-onnx-inspector/index.html",
+    "main.a08e3e8a.css.map": "/unity-onnx-inspector/static/css/main.a08e3e8a.css.map",
+    "main.64c50c59.js.map": "/unity-onnx-inspector/static/js/main.64c50c59.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a08e3e8a.css",
+    "static/js/main.64c50c59.js"
+  ]
+}
