@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "ONNX Inspector for Unity",
+  "name": "ONNX Model Inspector for Unity",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,18 +8,21 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "icons/icon-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "icons/icon-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#1a202c",
+  "background_color": "#2d3748",
+  "description": "A tool for analyzing and inspecting ONNX models and their operator compatibility in unity.",
+  "orientation": "portrait-primary",
+  "categories": ["tools", "machine learning", "AI", "model inspection"]
 }
