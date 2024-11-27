@@ -106,13 +106,14 @@ const ONNXInspector: React.FC = () => {
     const fetchVersions = async () => {
         try {
             // Fetch the file list JSON from the public folder
-            const response = await fetch('/assets/xlsx/fileList.json');
+            const response = await fetch(`${process.env.PUBLIC_URL}/assets/fileList.json`);
+
             if (!response.ok) throw new Error('Failed to fetch file list.');
 
             const files = await response.json(); // Example: ["version1.xlsx", "version2.xlsx", "version3.xlsx"]
             const versionOptions = files.map((file: string) => ({
                 label: file.replace('.xlsx', ''), // Use file name without extension as label
-                file: `/assets/xlsx/${file}`, // Full path for the file
+                file: `${process.env.PUBLIC_URL}/assets/xlsx/${file}`, // Full path for the file
             }));
 
             setVersions(versionOptions);
