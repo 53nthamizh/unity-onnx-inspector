@@ -160,3 +160,22 @@ textarea:focus {
 .text-gray-700 {
   color: #374151;
 }
+
+/* Tailwind customizations (Optional) */
+.scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #e0e0e0;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}

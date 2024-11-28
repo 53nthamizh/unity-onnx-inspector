@@ -2,7 +2,7 @@
   "name": "unity-onnx-inspector",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://53nthamizh.github.io/unity-onnx-inspector", 
+  "homepage": "https://53nthamizh.github.io/unity-onnx-inspector",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -12,6 +12,7 @@
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "onnxjs": "^0.1.8",
+    "onnxruntime-node": "^1.20.1",
     "onnxruntime-web": "^1.20.1",
     "protobufjs": "^7.4.0",
     "react": "^18.3.1",
